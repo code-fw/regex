@@ -25,3 +25,13 @@ body{
 html.dark ::-webkit-scrollbar-thumb{
     background: #1c1c1c;
 }
+
+::selection{
+    color: #000;
+    background: #cccccccc;
+}
+
+html.dark ::selection{
+    color: #fff;
+    background: #1c1c1ccc;
+}
