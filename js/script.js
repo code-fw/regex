@@ -33,6 +33,13 @@ btnLang.addEventListener('click', () => {
     menuLang.classList.toggle('flex')
 })
 
+document.addEventListener('click', (e) => {
+    if (menuLang.classList.contains('flex') && !menuLang.contains(e.target) && !btnLang.contains(e.target)) {
+        menuLang.classList.remove('flex')
+        menuLang.classList.add('hidden')    
+    }
+})
+
 btnLangEn.addEventListener('click', () => {
     setLanguague('en')
 })
