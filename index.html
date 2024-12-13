@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Expresiones regulares - Regex</title>
+    <link rel="shortcut icon" href="./img/isotipo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#fdf3af',
+                            100: '#fcec88',
+                            200: '#fbe974',
+                            300: '#fbe660',
+                            400: '#fae34c',
+                            500: '#fade2c',
+                            600: '#f0d52a',
+                            700: '#e6cc28',
+                            800: '#d1ba25',
+                            900: '#bda821',
+                            950: '#807116'
+                        }
+                    }
+                },
+                fontFamily: {
+                    'sans': ['Plus Jakarta Sans', 'Segoe UI', 'Arial', 'Helvetica', 'sans-serif'],
+                    'mono': ['Space Mono', 'monospace']
+                }
+            }
+        }
+    </script>
+</head>
+<body class="relative h-full w-full bg-white text-slate-950 dark:bg-zinc-950 dark:text-white">
+    <div class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]">
+        <header class="w-full fixed top-0 flex items-center justify-between p-5 py-6 md:p-8 md:px-16">
+            <a href="./index.html" class="w-fit h-fit"><img class="w-24 md:w-28" src="./img/logo-gray.svg" alt="Logo de Regex, herramienta para crear expresiones regulares de Java Script"></a>
+            <div class="flex items-center justify-center gap-5">
+                <button type="button" id="btn-theme" class="w-fit bg-inherit transition duration-200 text-gray-600 hover:text-zinc-950 dark:text-gray-400 dark:hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg"  width="26"  height="26"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.8"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-sun"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" /></svg>
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.8"  stroke-linecap="round"  stroke-linejoin="round"  class="hidden icon icon-tabler icons-tabler-outline icon-tabler-moon"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" /></svg>
+                </button>
+
+                <button type="button"  class="w-fit bg-inherit transition duration-200 text-gray-600 hover:text-zinc-950 dark:text-gray-400 dark:hover:text-white">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.8"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-language"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 5h7" /><path d="M9 3v2c0 4.418 -2.239 8 -5 8" /><path d="M5 9c0 2.144 2.952 3.908 6.7 4" /><path d="M12 20l4 -9l4 9" /><path d="M19.1 18h-6.2" /></svg>
+                </button>
+
+                <a href="https://github.com/code-fw/regex.github.io" target="_blank"  class="w-fit bg-inherit transition duration-200 text-gray-600 hover:text-zinc-950 dark:text-gray-400 dark:hover:text-white">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.8"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
+                </a>
+
+                <div class="flex items-center">
+                    <span class="relative inline-flex overflow-hidden rounded-full p-[1px]">
+                        <span class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#0d0d0c_0%,#fade2c_50%,#0d0d0c_100%)]"></span>
+                        <div class="inline-flex items-center justify-center w-full px-3 py-1 text-sm text-amber-950 bg-amber-50 rounded-full cursor-pointer dark:bg-zinc-900 dark:text-white/80 backdrop-blur-3xl whitespace-nowrap">
+                            Docs
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
