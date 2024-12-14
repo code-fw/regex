@@ -37,6 +37,11 @@ html.dark ::selection{
     background: #1c1c1ccc;
 }
 
+i svg{
+    width: 26px;
+    height: 26px;
+}
+
 @media (width <= 768px){
     ::-webkit-scrollbar{
         width: 1px;

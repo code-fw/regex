@@ -6,5 +6,6 @@
     "labelConsole": "Ingresa una expresión regular",
     "labelTest": "Prueba la expresión regular",
     "creator": "hecho por code-fw",
-    "linkToCollection": "Colección"
+    "linkToCollection": "Colección",
+    "messageTest": "Expresión regular no válida"
 }

@@ -6,5 +6,6 @@
     "labelConsole": "Enter a regular expression",
     "labelTest": "Try the regular expression",
     "creator": "made by code-fw",
-    "linkToCollection": "Collection"
+    "linkToCollection": "Collection",
+    "messageTest": "Invalid regular expression"
 }
