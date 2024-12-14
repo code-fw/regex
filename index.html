@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Turn complex into simple: create, test and learn all about JavaScript regular expressions in one place" id="description">
+    <meta property="og:type" content="website, app, online">
+    <meta property="og:title" content="Regex - Create and test regular expressions">
+    <meta property="og:description" content="Turn complex into simple: create, test and learn all about JavaScript regular expressions in one place">
+    <meta property="og:image" content="./img/preview.png">
+    <meta property="og:url" content="https://code-fw.github.io/regex/">
     <title id="title">Regular Expressions - Regex</title>
+    <link rel="canonical" href="https://code-fw.github.io/regex/">
     <link rel="shortcut icon" href="./img/isotipo.svg" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -105,13 +111,14 @@
                         </div>
                     </div>
                     <h3 id="labelTest" class=" mt-8 mb-3 text-sm text-zinc-500 uppercase font-bold">Try the regular expression</h3>
-                    <div id="contentTest" class="w-full p-3 rounded-lg border-2 border-green-500 flex gap-3 items-center bg-white/80 shadow-lg outline-0 dark:text-white dark:bg-black/60 dark:shadow-black">
-                        <input type="text" id="test" value="This regular expression does not support number" class="flex-1 text-md text-black bg-transparent outline-0 dark:text-white"
-                                spellcheck="false" aria-describedby="Test regular expressions">
-                        <i id="iconTest" title="Write something for test" class="text-green-500">
+                    <div id="contentTest" class="w-full p-3 rounded-lg flex gap-3 items-center bg-green-500/30 shadow-lg outline-0 dark:text-white dark:shadow-black">
+                        <i id="iconTest" title="Write something for test" class="text-green-900">
                             <svg  xmlns="http://www.w3.org/2000/svg"  width="20"  height="20"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.8"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
                         </i>
+                        <input type="text" id="test" value="This regular expression does not support number" class="flex-1 text-md text-black bg-transparent outline-0 dark:text-white"
+                                spellcheck="false" aria-describedby="Test regular expressions">
                     </div>
+                    <p id="messageTest" class="mb-0 mt-3 opacity-0 font-medium text-sm text-red-500">Invalid regular expression</p>
                 </div>
             </div>
         </main>
