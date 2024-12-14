@@ -4,5 +4,6 @@
     "h1Index": "Simplified Regular Expressions",
     "h2Description": "Create, learn and test JavaScript regular expressions faster and simpler",
     "labelConsole": "Enter a regular expression",
-    "labelTest": "Try the regular expression"
+    "labelTest": "Try the regular expression",
+    "creator": "made by code-fw"
 }
