@@ -1,4 +1,8 @@
 {
     "title": "Expresiones regulares - Regex",
-    "description": "Convierte lo complejo en sencillo: crea, prueba y aprende todo sobre expresiones regulares de JavaScript en un solo lugar"
+    "description": "Convierte lo complejo en sencillo: crea, prueba y aprende todo sobre expresiones regulares de JavaScript en un solo lugar",
+    "h1Index": "Expresiones regulares simplificadas",
+    "h2Description": "Crea, aprende y prueba expresiones regulares de JavaScript más rápido y más simple",
+    "labelConsole": "Ingresa una expresión regular",
+    "labelTest": "Prueba la expresión regular"
 }
