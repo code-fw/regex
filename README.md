@@ -34,11 +34,11 @@ Designed for users looking to learn, practice or implement regex easily.
 ---
 
 <table style="border: none">
-    <tr>
-        <td>
+    <tr style="border: none">
+        <td style="border: none">
             <img src="./img/code.svg" alt="fw" width="100" height="100">
         </td>
-        <td>
+        <td style="border: none">
             <a href="https://code-fw.github.io/regex/">regex</a><br>
             <a href="./README_ES.md">Para el README en Español, clic aquí</a><br>
             <a href="./CONTRIBUTING.md">To contribute, click here</a><br>
