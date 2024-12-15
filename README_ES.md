@@ -32,7 +32,11 @@ Diseñado para usuarios que buscan aprender, practicar o implementar regex fáci
 ## Licencia
 ### MIT License
 
-## FW
+<br>
+
+---
+
+<br>
 <table>
     <tr>
         <td>
