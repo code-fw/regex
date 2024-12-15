@@ -44,8 +44,8 @@
         </td>
         <td>
             <a href="https://code-fw.github.io/regex/">regex</a><br>
-            <a href="./README_ES.md">Para el README en Español, clic aquí</a><br>
-            <a href="./CONTRIBUTING.md">To contribute, click here</a><br>
+            <a href="./README.md">README - English</a><br>
+            <a href="./README_ES.md">README - Español</a><br>
             <em>fw</em>
         </td>
     </tr>
