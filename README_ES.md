@@ -40,7 +40,8 @@ Diseñado para usuarios que buscan aprender, practicar o implementar regex fáci
         </td>
         <td>
             <a href="https://code-fw.github.io/regex/">regex</a><br>
-            <a href="./README.md">For English, click here</a><br>
+            <a href="./README.md">For README in English, click here</a><br>
+            <a href="./CONTRIBUTING.md">To contribute, click here</a><br>
             <em>fw</em>
         </td>
     </tr>
