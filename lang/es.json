@@ -5,7 +5,6 @@
     "h2Description": "Crea, aprende y prueba expresiones regulares de JavaScript más rápido y más simple",
     "labelConsole": "Ingresa una expresión regular",
     "labelTest": "Prueba la expresión regular",
-    "creator": "hecho por code-fw",
     "linkToCollection": "Colección",
     "messageTest": "Expresión regular no válida"
 }
