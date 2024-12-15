@@ -1,5 +1,4 @@
-<p align="center"><img src="./img/logo.svg" alt="Regular expressions with JavaScript"></p>
-<br>
+<p align="center"><img src="./img/logo.svg" alt="Regular expressions with JavaScript"></p><br>
 
 # JavaScript Regular Expressions
 ### Create, test and learn regular expressions intuitively. Plus, access a collection of over 30 regular expressions ready to copy and paste.
@@ -32,12 +31,9 @@ Designed for users looking to learn, practice or implement regex easily.
 ## License
 ### MIT License
 
-<br>
-
 ---
 
-<br>
-<table>
+<table style="border: none">
     <tr>
         <td>
             <img src="./img/code.svg" alt="fw" width="100" height="100">
