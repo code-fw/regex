@@ -33,16 +33,12 @@ Designed for users looking to learn, practice or implement regex easily.
 
 ---
 
-<table style="border: none">
-    <tr>
-        <td>
-            <img src="./img/code.svg" alt="fw" width="100" height="100">
-        </td>
-        <td>
-            <a href="https://code-fw.github.io/regex/">regex</a><br>
-            <a href="./README_ES.md">Para el README en Español, clic aquí</a><br>
-            <a href="./CONTRIBUTING.md">To contribute, click here</a><br>
-            <em>fw</em>
-        </td>
-    </tr>
-</table>
+<div>
+    <img src="./img/code.svg" alt="fw" width="100" height="100">
+    <span>
+        <a href="https://code-fw.github.io/regex/">regex</a><br>
+        <a href="./README_ES.md">Para el README en Español, clic aquí</a><br>
+        <a href="./CONTRIBUTING.md">To contribute, click here</a><br>
+        <em>fw</em>
+    </span>
+</div>
