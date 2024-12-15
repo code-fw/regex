@@ -8,7 +8,7 @@ const btnLang = $('#btnLang');
 const menuLang = $('#menuLang');
 const btnLangEn = $('#btnLangEn');
 const btnLangEs = $('#btnLangEs');
-const toTraslate = ['title', 'description', 'h1Index', 'h2Description', 'labelConsole', 'labelTest', 'creator', 'linkToCollection', 'messageTest'];
+const toTraslate = ['title', 'description', 'h1Index', 'h2Description', 'labelConsole', 'labelTest', 'linkToCollection', 'messageTest'];
 const consoleRegex = $('#consola');
 const testRegex = $('#test');
 const contentTest = $('#contentTest');
@@ -121,8 +121,12 @@ function validateRegex() {
 
 document.addEventListener('DOMContentLoaded', () => {
     validateRegex()
+    testRegex.style.height = `${testRegex.scrollHeight}px`
+    testRegex.addEventListener('input', () => {
+        validateRegex();
+        testRegex.style.height = `${testRegex.scrollHeight}px`
+    })
     testRegex.addEventListener('click', validateRegex)
-    testRegex.addEventListener('input', validateRegex)
     testRegex.addEventListener('blur', validateRegex)
     consoleRegex.addEventListener('input', validateRegex)
     consoleRegex.addEventListener('blur', validateRegex)
