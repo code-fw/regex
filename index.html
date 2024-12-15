@@ -79,16 +79,16 @@
             </div>
         </header>
 
-        <main class="w-full p-5 py-20 md:pt-24 md:px-16 lg:pt-28">
+        <main class="w-full p-5 py-24 md:pt-24 md:px-16 lg:pt-28">
             <div class="w-full mb-20 grid grid-cols-1 gap-9 sm:grid-cols-2 md:gap-10 lg:gap-12">
                 <div class="col-auto">
                     <h1 id="h1Index"  class="mb-3 md:mb-5 text-5xl font-extrabold capitalize md:text-6xl lg:text-7xl 2xl:text-8xl">Simplified Regular Expressions</h1>
-                    <h2 id="h2Description" class="text-2xl font-semibold text-slate-900 md:text-2xl 2xl:text-3xl dark:text-zinc-300">Create, learn and test JavaScript regular expressions faster and simpler</h2>
+                    <h2 id="h2Description" class="text-lg font-semibold text-slate-900 md:text-xl 2xl:text-3xl dark:text-zinc-300">Create, learn and test JavaScript regular expressions faster and simpler</h2>
                     <div class="mt-5 flex flex-wrap items-center justify-start gap-3">
                         <a href="#" class="flex items-center order-1 md:order-2">
                             <span class="relative inline-flex overflow-hidden rounded-full p-[1px]">
                                 <span class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,transparent_0%,#020617_50%,transparent_100%)] dark:bg-[conic-gradient(from_90deg_at_50%_50%,transparent_0%,#ccc_50%,transparent_100%)]"></span>
-                                <div id="linkToCollection" class="inline-flex items-center justify-center w-full px-4 py-2 text-lg text-black font-medium bg-amber-50 rounded-full cursor-pointer sm:text-xl dark:bg-zinc-900 dark:text-white/80 backdrop-blur-3xl whitespace-nowrap">
+                                <div id="linkToCollection" class="inline-flex items-center justify-center w-full px-4 py-2 text-lg text-black font-medium bg-zinc-100 rounded-full cursor-pointer sm:text-xl dark:bg-zinc-900 dark:text-white/80 backdrop-blur-3xl whitespace-nowrap">
                                     Collection
                                 </div>
                             </span>
@@ -98,12 +98,12 @@
                 <div class="col-auto flex flex-col justify-center">
                     <h3 id="labelConsole" class="mb-3 text-sm text-zinc-500 uppercase font-bold">Enter a regular expression</h3>
                     <div class="w-full">
-                        <div class="bg-zinc-100 p-2 px-3 rounded-t-lg  flex items-center justify-start gap-1.5 dark:bg-stone-950">
+                        <div class="bg-zinc-100 p-2 px-3 rounded-t-lg  flex items-center justify-start gap-1.5 dark:bg-stone-900">
                             <div class="w-3 h-3 rounded-full bg-red-600"></div>
                             <div class="w-3 h-3 rounded-full bg-yellow-600"></div>
                             <div class="w-3 h-3 rounded-full bg-green-600"></div>
                         </div>
-                        <div class="w-full p-3 rounded-b-lg font-mono font-normal text-black text-xl bg-white/80 shadow-lg dark:text-white dark:bg-black/60 dark:shadow-black">
+                        <div class="w-full p-3 rounded-b-lg font-mono font-normal text-black text-xl bg-white/80 shadow-lg dark:text-white dark:bg-stone-950/60 dark:shadow-black">
                             /<div id="consola" spellcheck="false" autocorrect="off" autocapitalize="off" autofocus="true"
                                     writingsuggestions="false" translate="no" contenteditable="true" role="textbox"
                                     aria-multiline="true" data-languague="javascript"
@@ -115,19 +115,24 @@
                         <i id="iconTest" title="Write something for test" class="text-green-900">
                             <svg  xmlns="http://www.w3.org/2000/svg"  width="20"  height="20"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.8"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
                         </i>
-                        <input type="text" id="test" value="This regular expression does not support number" class="flex-1 text-md text-black bg-transparent outline-0 dark:text-white"
-                                spellcheck="false" aria-describedby="Test regular expressions">
+                        <textarea id="test" name="test" class="h-auto max-h-32 resize-none field-sizing-content flex-1 text-base text-pretty text-black bg-transparent outline-0 md:pr-2 dark:text-white"
+                                spellcheck="false" aria-describedby="Test regular expressions" autocomplete="off">This regular expression does not support number, try it by entering one</textarea>
                     </div>
                     <p id="messageTest" class="mb-0 mt-3 opacity-0 font-medium text-sm text-red-500">Invalid regular expression</p>
                 </div>
             </div>
         </main>
 
-        <footer class="w-full mb-0 bottom-0 flex items-center justify-end px-5 py-4 md:p-8 md:py-4 md:px-16">
-            <b id="creator" class="font-mono italic">made by code-fw</b>
+        <footer class="w-full mb-0 bottom-0 flex items-center justify-between gap-5 px-5 py-4 md:p-8 md:py-4 md:px-16">
+            <img src="./img/logo.svg" alt="Convierte lo complejo en sencillo: crea, prueba y aprende todo sobre expresiones regulares de JavaScript en un solo lugar" class="h-8">
+            <div class="flex items-center justify-center gap-3">
+                <img src="/img/isotipo.svg" alt="regex - regular expressions of JavaScript" class="w-8 h-8">
+                <b id="creator" class="font-mono italic">fw</b>
+            </div>
         </footer>
     </div>
 
+    <script src="./js/lang.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>
