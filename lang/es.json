@@ -1,10 +1,14 @@
 {
-    "title": "Expresiones regulares - Regex",
-    "description": "Convierte lo complejo en sencillo: crea, prueba y aprende todo sobre expresiones regulares de JavaScript en un solo lugar",
-    "h1Index": "Expresiones regulares simplificadas",
-    "h2Description": "Crea, aprende y prueba expresiones regulares de JavaScript más rápido y más simple",
-    "labelConsole": "Ingresa una expresión regular",
-    "labelTest": "Prueba la expresión regular",
-    "linkToCollection": "Colección",
-    "messageTest": "Expresión regular no válida"
+    "text": {
+        "title": "Expresiones regulares - Regex",
+        "description": "Convierte lo complejo en sencillo: crea, prueba y aprende todo sobre expresiones regulares de JavaScript en un solo lugar",
+        "h1Index": "Expresiones regulares simplificadas",
+        "labelConsole": "Ingresa una expresión regular",
+        "labelTest": "Prueba la expresión regular",
+        "linkToCollection": "Colección",
+        "messageTest": "Expresión regular no válida"
+    },
+    "inner": {
+        "h2Description": "Crea, aprende y prueba expresiones regulares de <strong class='text-primary-800 font-extrabold dark:text-primary-600'>JavaScript</strong> más rápido y más simple"
+    }
 }

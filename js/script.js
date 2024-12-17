@@ -8,7 +8,6 @@ const btnLang = $('#btnLang');
 const menuLang = $('#menuLang');
 const btnLangEn = $('#btnLangEn');
 const btnLangEs = $('#btnLangEs');
-const toTraslate = ['title', 'description', 'h1Index', 'h2Description', 'labelConsole', 'labelTest', 'linkToCollection', 'messageTest'];
 const consoleRegex = $('#consola');
 const testRegex = $('#test');
 const contentTest = $('#contentTest');
@@ -72,12 +71,27 @@ async function loadTranslations(lang) {
     const response = await fetch(`./lang/${lang}.json`)
     const translations = await response.json()
 
-    toTraslate.forEach(id => {
-        const element = $(`#${id}`)
-        if (element) {
-            element.textContent = translations[id]
-        }
-    })
+    if (translations.text) {
+        Object.keys(translations.text).forEach(key => {
+            const element = $(`#${key}`)
+            if (element) {
+                element.textContent = translations.text[key]
+            }
+        })
+    } else {
+        console.log('Error to translate');
+    }
+
+    if (translations.inner) {
+        Object.keys(translations.inner).forEach(key => {
+            const element = $(`#${key}`)
+            if (element) {
+                element.innerHTML = translations.inner[key]
+            }
+        })
+    } else {
+        console.log('Error to translate');
+    }
 
     document.documentElement.lang = lang
 }

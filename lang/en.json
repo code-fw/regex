@@ -1,10 +1,14 @@
 {
-    "title": "Regular Expressions - Regex",
-    "description": "Turn complex into simple: create, test and learn all about JavaScript regular expressions in one place",
-    "h1Index": "Simplified Regular Expressions",
-    "h2Description": "Create, learn and test JavaScript regular expressions faster and simpler",
-    "labelConsole": "Enter a regular expression",
-    "labelTest": "Try the regular expression",
-    "linkToCollection": "Collection",
-    "messageTest": "Invalid regular expression"
+    "text": {
+        "title": "Regular Expressions - Regex",
+        "description": "Turn complex into simple: create, test and learn all about JavaScript regular expressions in one place",
+        "h1Index": "Simplified Regular Expressions",
+        "labelConsole": "Enter a regular expression",
+        "labelTest": "Try the regular expression",
+        "linkToCollection": "Collection",
+        "messageTest": "Invalid regular expression"
+    },
+    "inner": {
+        "h2Description": "Create, learn and test <strong class='text-primary-800 font-extrabold dark:text-primary-600'>JavaScript</strong> regular expressions faster and simpler"
+    }
 }
