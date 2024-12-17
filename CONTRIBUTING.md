@@ -34,19 +34,7 @@
 ```
 <br>
 
----
-
-<br>
-<table>
-    <tr>
-        <td>
-            <img src="./img/code.svg" alt="fw" width="100" height="100">
-        </td>
-        <td>
-            <a href="https://code-fw.github.io/regex/">regex</a><br>
-            <a href="./README.md">README - English</a><br>
-            <a href="./README_ES.md">README - Español</a><br>
-            <em>fw</em>
-        </td>
-    </tr>
-</table>
+[regex](https://code-fw.github.io/regex/) <br>
+[README in English](./README.md) <br>
+[README en Español](./README_ES.md) <br>
+<em>fw</em>

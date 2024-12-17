@@ -1,5 +1,4 @@
-<p align="center"><img src="./img/logo.svg" alt="Expresiones regulares con JavaScript"></p>
-<br>
+<p align="center"><img src="./img/logo.svg" alt="Expresiones regulares con JavaScript"></p><br>
 
 # Expresiones regulares de JavaScript
 ### Crea, prueba y aprende expresiones regulares de manera intuitiva. Además, accede a una colección de más de 30 expresiones regulares listas para copiar y pegar.
@@ -31,22 +30,9 @@ Diseñado para usuarios que buscan aprender, practicar o implementar regex fáci
 
 ## Licencia
 ### MIT License
-
 <br>
 
----
-
-<br>
-<table>
-    <tr>
-        <td>
-            <img src="./img/code.svg" alt="fw" width="100" height="100">
-        </td>
-        <td>
-            <a href="https://code-fw.github.io/regex/">regex</a><br>
-            <a href="./README.md">For README in English, click here</a><br>
-            <a href="./CONTRIBUTING.md">To contribute, click here</a><br>
-            <em>fw</em>
-        </td>
-    </tr>
-</table>
+[regex](https://code-fw.github.io/regex/) <br>
+[README in English](./README.md) <br>
+[For contribute](./CONTRIBUTING.md) <br><br>
+<em>fw</em>

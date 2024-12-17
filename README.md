@@ -32,10 +32,7 @@ Designed for users looking to learn, practice or implement regex easily.
 ### MIT License
 <br>
 
-## regex
-
 [regex](https://code-fw.github.io/regex/) <br>
 [README en Español](./README_ES.md) <br>
 [For contribute](./CONTRIBUTING.md) <br><br>
 <em>fw</em>
-
