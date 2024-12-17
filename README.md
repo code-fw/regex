@@ -30,15 +30,12 @@ Designed for users looking to learn, practice or implement regex easily.
 
 ## License
 ### MIT License
+<br>
 
----
+## regex
 
-<div>
-    <img src="./img/code.svg" alt="fw" width="100" height="100">
-    <span>
-        <a href="https://code-fw.github.io/regex/">regex</a><br>
-        <a href="./README_ES.md">Para el README en Español, clic aquí</a><br>
-        <a href="./CONTRIBUTING.md">To contribute, click here</a><br>
-        <em>fw</em>
-    </span>
-</div>
+[regex](https://code-fw.github.io/regex/) <br>
+[README en Español](./README_ES.md) <br>
+[For contribute](./CONTRIBUTING.md) <br><br>
+<em>fw</em>
+
