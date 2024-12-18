@@ -6,9 +6,170 @@
         "labelConsole": "Ingresa una expresión regular",
         "labelTest": "Prueba la expresión regular",
         "linkToCollection": "Colección",
-        "messageTest": "Expresión regular no válida"
+        "messageTest": "Expresión regular no válida",
+        "whatTitle": "¿Qué son las expresiones regulares?",
+        "definition": "Son patrones que se usan para hacer coincidir combinaciones de caracteres en cadenas.",
+        "bento2": "En JavaScript se interpretan como objetos. Lo que nos permite utilizar estos patrones con diferentes métodos.",
+        "bento3Uno": "Comúnmente se pueden ver así:",
+        "bento3Dos": "¿Te parece algo compleja la sintaxis? No te preocupes.",
+        "bento4": "te muestra todo lo que necesitas saber sobre las expresiones regulares de JavaScript.",
+        "collection": "Colección de expresiones regulares"
     },
     "inner": {
         "h2Description": "Crea, aprende y prueba expresiones regulares de <strong class='text-primary-800 font-extrabold dark:text-primary-600'>JavaScript</strong> más rápido y más simple"
+    },
+    "collectionRegex": {
+        "mail": {
+            "title": "Correo Electrónico",
+            "description": "Validar direcciones de correo electrónico"
+        },
+        "phone": {
+            "title": "Teléfono",
+            "description": "Validar números de teléfono con código de país opcional"
+        },
+        "url": {
+            "title": "URL",
+            "description": "Validar URLs HTTP, HTTPS o FTP"
+        },
+        "zipcode": {
+            "title": "Código Postal",
+            "description": "Validar códigos postales de EE.UU., con o sin extensión opcional"
+        },
+        "ipv4": {
+            "title": "IPv4",
+            "description": "Validar direcciones IPv4"
+        },
+        "ipv6": {
+            "title": "IPv6",
+            "description": "Validar direcciones IPv6"
+        },
+        "creditCard": {
+            "title": "Tarjeta de Crédito",
+            "description": "Validar números comunes de tarjetas de crédito"
+        },
+        "hexColor": {
+            "title": "Color Hexadecimal",
+            "description": "Validar códigos de color hexadecimal"
+        },
+        "username": {
+            "title": "Nombre de Usuario",
+            "description": "Validar nombres de usuario de 3 a 16 caracteres, incluyendo letras, números y guiones bajos"
+        },
+        "password": {
+            "title": "Contraseña",
+            "description": "Validar contraseñas con al menos una letra mayúscula, una letra minúscula, un número y un carácter especial"
+        },
+        "strongPassword": {
+            "title": "Contraseña Fuerte",
+            "description": "Validar contraseñas fuertes con reglas más estrictas"
+        },
+        "alphaNumeric": {
+            "title": "Alfanumérico",
+            "description": "Validar cadenas alfanuméricas"
+        },
+        "alpha": {
+            "title": "Alfabético",
+            "description": "Validar cadenas alfabéticas"
+        },
+        "lowercase": {
+            "title": "Minúsculas",
+            "description": "Validar cadenas solo con letras minúsculas"
+        },
+        "uppercase": {
+            "title": "Mayúsculas",
+            "description": "Validar cadenas solo con letras mayúsculas"
+        },
+        "lettersOnly": {
+            "title": "Solo Letras",
+            "description": "Validar cadenas que contengan solo letras"
+        },
+        "decimal": {
+            "title": "Decimal",
+            "description": "Validar números decimales"
+        },
+        "integer": {
+            "title": "Entero",
+            "description": "Validar números enteros, positivos o negativos"
+        },
+        "positiveInteger": {
+            "title": "Entero Positivo",
+            "description": "Validar números enteros positivos"
+        },
+        "negativeInteger": {
+            "title": "Entero Negativo",
+            "description": "Validar números enteros negativos"
+        },
+        "float": {
+            "title": "Flotante",
+            "description": "Validar números de punto flotante"
+        },
+        "date": {
+            "title": "Fecha",
+            "description": "Validar fechas en formato MM/DD/YYYY"
+        },
+        "time": {
+            "title": "Hora",
+            "description": "Validar horas en formato HH:MM de 24 horas"
+        },
+        "datetime": {
+            "title": "Fecha y Hora",
+            "description": "Validar cadenas de fecha y hora en formato ISO 8601"
+        },
+        "htmlTag": {
+            "title": "Etiqueta HTML",
+            "description": "Validar y extraer etiquetas HTML"
+        },
+        "nonWhitespace": {
+            "title": "Sin Espacios en Blanco",
+            "description": "Validar cadenas sin caracteres de espacio en blanco"
+        },
+        "commaSeparated": {
+            "title": "Valores Separados por Comas",
+            "description": "Validar valores separados por comas"
+        },
+        "alphaNumericSpaces": {
+            "title": "Alfanumérico con Espacios",
+            "description": "Validar cadenas alfanuméricas con espacios permitidos"
+        },
+        "negativeDecimal": {
+            "title": "Decimal Negativo",
+            "description": "Validar números decimales negativos"
+        },
+        "positiveDecimal": {
+            "title": "Decimal Positivo",
+            "description": "Validar números decimales positivos"
+        },
+        "csvLine": {
+            "title": "Línea CSV",
+            "description": "Validar una sola línea de datos CSV"
+        },
+        "md5": {
+            "title": "Hash MD5",
+            "description": "Validar cadenas de hash MD5"
+        },
+        "sha1": {
+            "title": "Hash SHA-1",
+            "description": "Validar cadenas de hash SHA-1"
+        },
+        "sha256": {
+            "title": "Hash SHA-256",
+            "description": "Validar cadenas de hash SHA-256"
+        },
+        "base64": {
+            "title": "Base64",
+            "description": "Validar cadenas codificadas en Base64"
+        },
+        "hexadecimal": {
+            "title": "Hexadecimal",
+            "description": "Validar números hexadecimales"
+        },
+        "emoji": {
+            "title": "Emoji",
+            "description": "Validar cadenas que contienen emojis"
+        },
+        "uuid": {
+            "title": "UUID",
+            "description": "Validar cadenas UUID"
+        }
     }
 }

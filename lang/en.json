@@ -6,9 +6,170 @@
         "labelConsole": "Enter a regular expression",
         "labelTest": "Try the regular expression",
         "linkToCollection": "Collection",
-        "messageTest": "Invalid regular expression"
+        "messageTest": "Invalid regular expression",
+        "whatTitle": "What are regular expressions?",
+        "definition": "Are patterns used to match combinations of characters in strings.",
+        "bento2": "In JavaScript they are interpreted as objects. Which allows us to use these patterns with different methods.",
+        "bento3Uno": "They can commonly be seen like this:",
+        "bento3Dos": "Does the syntax seem somewhat complex to you? Don't worry.",
+        "bento4": "shows you everything you need to know about JavaScript regular expressions.",
+        "collection": "Regular expression collection"
     },
     "inner": {
         "h2Description": "Create, learn and test <strong class='text-primary-800 font-extrabold dark:text-primary-600'>JavaScript</strong> regular expressions faster and simpler"
+    },
+    "collectionRegex": {
+        "mail": {
+            "title": "Email",
+            "description": "Validate email addresses"
+        },
+        "phone": {
+            "title": "Phone",
+            "description": "Validate phone numbers with optional country code"
+        },
+        "url": {
+            "title": "URL",
+            "description": "Validate HTTP, HTTPS, or FTP URLs"
+        },
+        "zipcode": {
+            "title": "Zip Code",
+            "description": "Validate US zip codes, with or without an optional extension"
+        },
+        "ipv4": {
+            "title": "IPv4",
+            "description": "Validate IPv4 addresses"
+        },
+        "ipv6": {
+            "title": "IPv6",
+            "description": "Validate IPv6 addresses"
+        },
+        "creditCard": {
+            "title": "Credit Card",
+            "description": "Validate common credit card numbers"
+        },
+        "hexColor": {
+            "title": "Hex Color",
+            "description": "Validate hexadecimal color codes"
+        },
+        "username": {
+            "title": "Username",
+            "description": "Validate usernames with 3-16 characters, including letters, numbers, and underscores"
+        },
+        "password": {
+            "title": "Password",
+            "description": "Validate passwords with at least one uppercase letter, one lowercase letter, one number, and one special character"
+        },
+        "strongPassword": {
+            "title": "Strong Password",
+            "description": "Validate strong passwords with stricter rules"
+        },
+        "alphaNumeric": {
+            "title": "Alphanumeric",
+            "description": "Validate alphanumeric strings"
+        },
+        "alpha": {
+            "title": "Alphabetic",
+            "description": "Validate alphabetic strings"
+        },
+        "lowercase": {
+            "title": "Lowercase",
+            "description": "Validate strings with lowercase letters only"
+        },
+        "uppercase": {
+            "title": "Uppercase",
+            "description": "Validate strings with uppercase letters only"
+        },
+        "lettersOnly": {
+            "title": "Letters Only",
+            "description": "Validate strings containing only letters"
+        },
+        "decimal": {
+            "title": "Decimal",
+            "description": "Validate decimal numbers"
+        },
+        "integer": {
+            "title": "Integer",
+            "description": "Validate integers, positive or negative"
+        },
+        "positiveInteger": {
+            "title": "Positive Integer",
+            "description": "Validate positive integers"
+        },
+        "negativeInteger": {
+            "title": "Negative Integer",
+            "description": "Validate negative integers"
+        },
+        "float": {
+            "title": "Float",
+            "description": "Validate floating-point numbers"
+        },
+        "date": {
+            "title": "Date",
+            "description": "Validate dates in MM/DD/YYYY format"
+        },
+        "time": {
+            "title": "Time",
+            "description": "Validate time in HH:MM 24-hour format"
+        },
+        "datetime": {
+            "title": "DateTime",
+            "description": "Validate ISO 8601 datetime strings"
+        },
+        "htmlTag": {
+            "title": "HTML Tag",
+            "description": "Validate and extract HTML tags"
+        },
+        "nonWhitespace": {
+            "title": "Non-Whitespace",
+            "description": "Validate strings without any whitespace characters"
+        },
+        "commaSeparated": {
+            "title": "Comma-Separated Values",
+            "description": "Validate comma-separated values"
+        },
+        "alphaNumericSpaces": {
+            "title": "Alphanumeric with Spaces",
+            "description": "Validate alphanumeric strings with spaces allowed"
+        },
+        "negativeDecimal": {
+            "title": "Negative Decimal",
+            "description": "Validate negative decimal numbers"
+        },
+        "positiveDecimal": {
+            "title": "Positive Decimal",
+            "description": "Validate positive decimal numbers"
+        },
+        "csvLine": {
+            "title": "CSV Line",
+            "description": "Validate a single line of CSV data"
+        },
+        "md5": {
+            "title": "MD5 Hash",
+            "description": "Validate MD5 hash strings"
+        },
+        "sha1": {
+            "title": "SHA-1 Hash",
+            "description": "Validate SHA-1 hash strings"
+        },
+        "sha256": {
+            "title": "SHA-256 Hash",
+            "description": "Validate SHA-256 hash strings"
+        },
+        "base64": {
+            "title": "Base64",
+            "description": "Validate Base64 encoded strings"
+        },
+        "hexadecimal": {
+            "title": "Hexadecimal",
+            "description": "Validate hexadecimal numbers"
+        },
+        "emoji": {
+            "title": "Emoji",
+            "description": "Validate strings containing emojis"
+        },
+        "uuid": {
+            "title": "UUID",
+            "description": "Validate UUID strings"
+        }
     }
 }
