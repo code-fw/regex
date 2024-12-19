@@ -13,7 +13,8 @@
         "bento3Uno": "They can commonly be seen like this:",
         "bento3Dos": "Does the syntax seem somewhat complex to you? Don't worry.",
         "bento4": "shows you everything you need to know about JavaScript regular expressions.",
-        "collection": "Regular expression collection"
+        "collection": "Regular expression collection",
+        "errorCollection": "Oops, an error occurred while loading the collection, please reload the page"
     },
     "inner": {
         "h2Description": "Create, learn and test <strong class='text-primary-800 font-extrabold dark:text-primary-600'>JavaScript</strong> regular expressions faster and simpler"

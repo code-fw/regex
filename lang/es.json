@@ -13,7 +13,8 @@
         "bento3Uno": "Comúnmente se pueden ver así:",
         "bento3Dos": "¿Te parece algo compleja la sintaxis? No te preocupes.",
         "bento4": "te muestra todo lo que necesitas saber sobre las expresiones regulares de JavaScript.",
-        "collection": "Colección de expresiones regulares"
+        "collection": "Colección de expresiones regulares",
+        "errorCollection": "Ups, ha ocurrido un error al cargar la colección, por favor, recargue la página"
     },
     "inner": {
         "h2Description": "Crea, aprende y prueba expresiones regulares de <strong class='text-primary-800 font-extrabold dark:text-primary-600'>JavaScript</strong> más rápido y más simple"
